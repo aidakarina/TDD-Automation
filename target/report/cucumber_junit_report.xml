@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="140.522016">
+<testcase classname="Create/Edit/Delete records in Cafe Townsend application" name="Create Employee - View" time="9.500664">
+<system-out><![CDATA[Given user navigates to "http://cafetownsend-angular-rails.herokuapp.com" url.passed
+And successfully logs in to application with username "Luke" and password "Skywalker".passed
+Given user clicks "Create" button in Home...................................passed
+And [Employee] form is displayed............................................passed
+Then following elements are displayed and enabled in form...................passed
+]]></system-out>
+</testcase>
+<testcase classname="Create/Edit/Delete records in Cafe Townsend application" name="Create Employee - Create" time="7.020814">
+<system-out><![CDATA[Given user navigates to "http://cafetownsend-angular-rails.herokuapp.com" url.passed
+And successfully logs in to application with username "Luke" and password "Skywalker".passed
+Given user clicks "Create" button in Home...................................passed
+And [Employee] form is displayed............................................passed
+When user enters following fields "Brandon","Flowers","2018-10-03" and "brandon.flowers@thekillers.com".passed
+And user clicks [Add] button................................................passed
+Then user is redirected to [Home]...........................................passed
+And employee with name "Brandon" and "Flowers" is diplayed as clickable link.passed
+]]></system-out>
+</testcase>
+<testcase classname="Create/Edit/Delete records in Cafe Townsend application" name="Create Employee - Create 2" time="6.619398">
+<system-out><![CDATA[Given user navigates to "http://cafetownsend-angular-rails.herokuapp.com" url.passed
+And successfully logs in to application with username "Luke" and password "Skywalker".passed
+Given user clicks "Create" button in Home...................................passed
+And [Employee] form is displayed............................................passed
+When user enters following fields "John","Lennon","2018-11-08" and "john.lennon@thebeatles.com".passed
+And user clicks [Add] button................................................passed
+Then user is redirected to [Home]...........................................passed
+And employee with name "John" and "Lennon" is diplayed as clickable link....passed
+]]></system-out>
+</testcase>
+<testcase classname="Create/Edit/Delete records in Cafe Townsend application" name="Edit Employee - Edit" time="7.223379">
+<system-out><![CDATA[Given user navigates to "http://cafetownsend-angular-rails.herokuapp.com" url.passed
+And successfully logs in to application with username "Luke" and password "Skywalker".passed
+Given employee with name "Brandon" and "Flowers" is selected................passed
+When user clicks "Edit" button in Home......................................passed
+And [Employee] form is displayed............................................passed
+When user enters following fields "Brandon","Flowers","2018-10-03" and "brandon.r.flowers@thekillers.com".passed
+And user clicks [Edit] button...............................................passed
+Then user is redirected to [Home]...........................................passed
+And employee with name "Brandon" and "Flowers" is diplayed as clickable link.passed
+]]></system-out>
+</testcase>
+<testcase classname="Create/Edit/Delete records in Cafe Townsend application" name="Delete Employee - Delete" time="92.072444">
+<system-out><![CDATA[Given user navigates to "http://cafetownsend-angular-rails.herokuapp.com" url.passed
+And successfully logs in to application with username "Luke" and password "Skywalker".passed
+Given employee with name "Brandon" and "Flowers" is selected................passed
+When user clicks "Delete" button in Home....................................passed
+Then Warning alert is displayed.............................................passed
+And user accepts warning....................................................passed
+And employee with name "Brandon" and "Flowers" is not diplayed as clickable link.passed
+]]></system-out>
+</testcase>
+<testcase classname="Create/Edit/Delete records in Cafe Townsend application" name="Delete Employee - Delete 2" time="18.085317">
+<system-out><![CDATA[Given user navigates to "http://cafetownsend-angular-rails.herokuapp.com" url.passed
+And successfully logs in to application with username "Luke" and password "Skywalker".passed
+Given employee with name "John" and "Lennon" is selected....................passed
+When user clicks "Delete" button in Home....................................passed
+Then Warning alert is displayed.............................................passed
+And user accepts warning....................................................passed
+And employee with name "John" and "Lennon" is not diplayed as clickable link.passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,1153 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 877949212,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user navigates to \"http://cafetownsend-angular-rails.herokuapp.com\" url",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://cafetownsend-angular-rails.herokuapp.com",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps.userNavigatesToUrl(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2202037676,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "successfully logs in to application with username \"Luke\" and password \"Skywalker\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Luke",
+                  "offset": 51
+                },
+                {
+                  "val": "Skywalker",
+                  "offset": 71
+                }
+              ],
+              "location": "Steps.successfullyLogsInToApplicationWithUsernameAndPassword(String,String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4597319921,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Create Employee - View",
+        "description": "",
+        "id": "create/edit/delete-records-in-cafe-townsend-application;create-employee---view",
+        "after": [
+          {
+            "result": {
+              "duration": 220002768,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 147806418,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks \"Create\" button in Home",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Create",
+                  "offset": 13
+                }
+              ],
+              "location": "Steps.userClicksButtonInHome(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 597666957,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "[Employee] form is displayed",
+            "match": {
+              "location": "Steps.employeeFormIsDisplayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 857881536,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "following elements are displayed and enabled in form",
+            "match": {
+              "location": "Steps.followingElementsAreDisplayedAndEnabledInForm(String,String\u003e\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "element",
+                  "xpath_locator"
+                ],
+                "line": 13
+              },
+              {
+                "cells": [
+                  "First name",
+                  "//span[text()\u003d\u0027First name:\u0027]/following-sibling::input[1]"
+                ],
+                "line": 14
+              },
+              {
+                "cells": [
+                  "Last name",
+                  "//span[text()\u003d\u0027Last name:\u0027]/following-sibling::input[1]"
+                ],
+                "line": 15
+              },
+              {
+                "cells": [
+                  "Start date",
+                  "//span[text()\u003d\u0027Start date:\u0027]/following-sibling::input[1]"
+                ],
+                "line": 16
+              },
+              {
+                "cells": [
+                  "Email",
+                  "//span[text()\u003d\u0027Email:\u0027]/following-sibling::input[1]"
+                ],
+                "line": 17
+              },
+              {
+                "cells": [
+                  "Add",
+                  "//button[text()\u003d\u0027Add\u0027]"
+                ],
+                "line": 18
+              },
+              {
+                "cells": [
+                  "Cancel",
+                  "//a[text()\u003d\u0027Cancel\u0027]"
+                ],
+                "line": 19
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 553104466,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user navigates to \"http://cafetownsend-angular-rails.herokuapp.com\" url",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://cafetownsend-angular-rails.herokuapp.com",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps.userNavigatesToUrl(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1665271071,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "successfully logs in to application with username \"Luke\" and password \"Skywalker\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Luke",
+                  "offset": 51
+                },
+                {
+                  "val": "Skywalker",
+                  "offset": 71
+                }
+              ],
+              "location": "Steps.successfullyLogsInToApplicationWithUsernameAndPassword(String,String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1728666741,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Create Employee - Create",
+        "description": "",
+        "id": "create/edit/delete-records-in-cafe-townsend-application;create-employee---create;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 159917266,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 164225559,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user clicks \"Create\" button in Home",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Create",
+                  "offset": 13
+                }
+              ],
+              "location": "Steps.userClicksButtonInHome(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 419080504,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "[Employee] form is displayed",
+            "match": {
+              "location": "Steps.employeeFormIsDisplayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 984336118,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user enters following fields \"Brandon\",\"Flowers\",\"2018-10-03\" and \"brandon.flowers@thekillers.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Brandon",
+                  "offset": 30
+                },
+                {
+                  "val": "Flowers",
+                  "offset": 40
+                },
+                {
+                  "val": "2018-10-03",
+                  "offset": 50
+                },
+                {
+                  "val": "brandon.flowers@thekillers.com",
+                  "offset": 67
+                }
+              ],
+              "location": "Steps.userEntersFollowingFieldsAnd(String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 96518690,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user clicks [Add] button",
+            "match": {
+              "location": "Steps.userClicksAddButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 877681641,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user is redirected to [Home]",
+            "match": {
+              "location": "Steps.userIsRedirectedToHome()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 372011552,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "employee with name \"Brandon\" and \"Flowers\" is diplayed as clickable link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Brandon",
+                  "offset": 20
+                },
+                {
+                  "val": "Flowers",
+                  "offset": 34
+                }
+              ],
+              "location": "Steps.employeeWithNameAndIsDiplayedAsClickableLink(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 542099226,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user navigates to \"http://cafetownsend-angular-rails.herokuapp.com\" url",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://cafetownsend-angular-rails.herokuapp.com",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps.userNavigatesToUrl(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1756174865,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "successfully logs in to application with username \"Luke\" and password \"Skywalker\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Luke",
+                  "offset": 51
+                },
+                {
+                  "val": "Skywalker",
+                  "offset": 71
+                }
+              ],
+              "location": "Steps.successfullyLogsInToApplicationWithUsernameAndPassword(String,String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1278846495,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "Create Employee - Create",
+        "description": "",
+        "id": "create/edit/delete-records-in-cafe-townsend-application;create-employee---create;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 158647453,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 205591352,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user clicks \"Create\" button in Home",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Create",
+                  "offset": 13
+                }
+              ],
+              "location": "Steps.userClicksButtonInHome(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 410883523,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "[Employee] form is displayed",
+            "match": {
+              "location": "Steps.employeeFormIsDisplayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 947719279,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user enters following fields \"John\",\"Lennon\",\"2018-11-08\" and \"john.lennon@thebeatles.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "John",
+                  "offset": 30
+                },
+                {
+                  "val": "Lennon",
+                  "offset": 37
+                },
+                {
+                  "val": "2018-11-08",
+                  "offset": 46
+                },
+                {
+                  "val": "john.lennon@thebeatles.com",
+                  "offset": 63
+                }
+              ],
+              "location": "Steps.userEntersFollowingFieldsAnd(String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 100011183,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user clicks [Add] button",
+            "match": {
+              "location": "Steps.userClicksAddButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 840723628,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user is redirected to [Home]",
+            "match": {
+              "location": "Steps.userIsRedirectedToHome()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 378701056,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "employee with name \"John\" and \"Lennon\" is diplayed as clickable link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "John",
+                  "offset": 20
+                },
+                {
+                  "val": "Lennon",
+                  "offset": 31
+                }
+              ],
+              "location": "Steps.employeeWithNameAndIsDiplayedAsClickableLink(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 540647753,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user navigates to \"http://cafetownsend-angular-rails.herokuapp.com\" url",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://cafetownsend-angular-rails.herokuapp.com",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps.userNavigatesToUrl(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1531205669,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "successfully logs in to application with username \"Luke\" and password \"Skywalker\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Luke",
+                  "offset": 51
+                },
+                {
+                  "val": "Skywalker",
+                  "offset": 71
+                }
+              ],
+              "location": "Steps.successfullyLogsInToApplicationWithUsernameAndPassword(String,String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1252946150,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 43,
+        "name": "Edit Employee - Edit",
+        "description": "",
+        "id": "create/edit/delete-records-in-cafe-townsend-application;edit-employee---edit;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 222361426,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 434459559,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "employee with name \"Brandon\" and \"Flowers\" is selected",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Brandon",
+                  "offset": 20
+                },
+                {
+                  "val": "Flowers",
+                  "offset": 34
+                }
+              ],
+              "location": "Steps.employeeWithNameAndIsSelected(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 109959760,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user clicks \"Edit\" button in Home",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Edit",
+                  "offset": 13
+                }
+              ],
+              "location": "Steps.userClicksButtonInHome(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 875935836,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "[Employee] form is displayed",
+            "match": {
+              "location": "Steps.employeeFormIsDisplayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 938850830,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user enters following fields \"Brandon\",\"Flowers\",\"2018-10-03\" and \"brandon.r.flowers@thekillers.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Brandon",
+                  "offset": 30
+                },
+                {
+                  "val": "Flowers",
+                  "offset": 40
+                },
+                {
+                  "val": "2018-10-03",
+                  "offset": 50
+                },
+                {
+                  "val": "brandon.r.flowers@thekillers.com",
+                  "offset": 67
+                }
+              ],
+              "location": "Steps.userEntersFollowingFieldsAnd(String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 90640490,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user clicks [Edit] button",
+            "match": {
+              "location": "Steps.userClicksEditButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 846203198,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user is redirected to [Home]",
+            "match": {
+              "location": "Steps.userIsRedirectedToHome()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 380168660,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "employee with name \"Brandon\" and \"Flowers\" is diplayed as clickable link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Brandon",
+                  "offset": 20
+                },
+                {
+                  "val": "Flowers",
+                  "offset": 34
+                }
+              ],
+              "location": "Steps.employeeWithNameAndIsDiplayedAsClickableLink(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 481921995,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user navigates to \"http://cafetownsend-angular-rails.herokuapp.com\" url",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://cafetownsend-angular-rails.herokuapp.com",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps.userNavigatesToUrl(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1567442447,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "successfully logs in to application with username \"Luke\" and password \"Skywalker\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Luke",
+                  "offset": 51
+                },
+                {
+                  "val": "Skywalker",
+                  "offset": 71
+                }
+              ],
+              "location": "Steps.successfullyLogsInToApplicationWithUsernameAndPassword(String,String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1285972080,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 53,
+        "name": "Delete Employee - Delete",
+        "description": "",
+        "id": "create/edit/delete-records-in-cafe-townsend-application;delete-employee---delete;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 190392422,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 484708151,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "employee with name \"Brandon\" and \"Flowers\" is selected",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Brandon",
+                  "offset": 20
+                },
+                {
+                  "val": "Flowers",
+                  "offset": 34
+                }
+              ],
+              "location": "Steps.employeeWithNameAndIsSelected(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 204333989,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "user clicks \"Delete\" button in Home",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Delete",
+                  "offset": 13
+                }
+              ],
+              "location": "Steps.userClicksButtonInHome(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 43817377,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "Warning alert is displayed",
+            "match": {
+              "location": "Steps.warningAlertIsDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 27604778,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "user accepts warning",
+            "match": {
+              "location": "Steps.userAcceptsWarning()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 87786250971,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "employee with name \"Brandon\" and \"Flowers\" is not diplayed as clickable link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Brandon",
+                  "offset": 20
+                },
+                {
+                  "val": "Flowers",
+                  "offset": 34
+                }
+              ],
+              "location": "Steps.employeeWithNameAndIsNotDiplayedAsClickableLink(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 523449685,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user navigates to \"http://cafetownsend-angular-rails.herokuapp.com\" url",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://cafetownsend-angular-rails.herokuapp.com",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps.userNavigatesToUrl(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1632333142,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "successfully logs in to application with username \"Luke\" and password \"Skywalker\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Luke",
+                  "offset": 51
+                },
+                {
+                  "val": "Skywalker",
+                  "offset": 71
+                }
+              ],
+              "location": "Steps.successfullyLogsInToApplicationWithUsernameAndPassword(String,String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1410055515,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 54,
+        "name": "Delete Employee - Delete",
+        "description": "",
+        "id": "create/edit/delete-records-in-cafe-townsend-application;delete-employee---delete;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 159646098,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 502805788,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "employee with name \"John\" and \"Lennon\" is selected",
+            "match": {
+              "arguments": [
+                {
+                  "val": "John",
+                  "offset": 20
+                },
+                {
+                  "val": "Lennon",
+                  "offset": 31
+                }
+              ],
+              "location": "Steps.employeeWithNameAndIsSelected(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 144025717,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "user clicks \"Delete\" button in Home",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Delete",
+                  "offset": 13
+                }
+              ],
+              "location": "Steps.userClicksButtonInHome(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9797925,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "Warning alert is displayed",
+            "match": {
+              "location": "Steps.warningAlertIsDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 41080974,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "user accepts warning",
+            "match": {
+              "location": "Steps.userAcceptsWarning()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13662121949,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "employee with name \"John\" and \"Lennon\" is not diplayed as clickable link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "John",
+                  "offset": 20
+                },
+                {
+                  "val": "Lennon",
+                  "offset": 31
+                }
+              ],
+              "location": "Steps.employeeWithNameAndIsNotDiplayedAsClickableLink(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Create/Edit/Delete records in Cafe Townsend application",
+    "description": "As a user I want to be able to create, edit or delete a record in Cafe Townsend application\nso that I can add new employees, edit their information or delete the employees from system",
+    "id": "create/edit/delete-records-in-cafe-townsend-application",
+    "keyword": "Feature",
+    "uri": "createEditDeleteEmployee.feature"
+  }
+]
