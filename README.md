@@ -1,8 +1,8 @@
 # TDD_Automation
 
 Prerequisites
-Install Eclipse
-Install Java 1.8
+ - Install Eclipse
+ - Install Java 1.8
 
 Instructions
  - Import project as Maven Project
